@@ -1,0 +1,289 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+	.header-logo a img {
+		max-width: 51%;
+		margin: auto;
+	  }
+	  .header-logo a {
+		text-align: center;
+	  }
+	  .header-area {
+		padding: 30px 0;
+	  }
+	  .play-fl-text {
+		bottom: 14%;
+		margin: 0;
+	  }.play-fl-text.bt {
+	bottom: 6%;
+}
+	  .play-smolle.buld-hi .play-box {
+		height: 205px;
+		padding-bottom: 50px;
+		margin-bottom: 20px;
+	  }
+	  .play-smolle.buld-hi .play-box h3 {
+		font-size: 16px;
+		height: 50px;
+	  }
+	  .play-box a {
+		max-width: 122px;
+	  }
+	  .play-smoll-text span {
+		font-size: 13px;
+		line-height: 16px;
+	  }
+.info-top-box {
+  padding-top: 0;
+  padding-bottom: 18px;
+}
+.single-info-top-box {
+  height: 124px;
+  width: 48%;
+}
+.info-text-box p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.info-text-box {
+  height: 100px;
+}
+	  .play-video-area {
+		padding-top: 20px;
+	  }
+	  .play-fl-text p {
+		font-size: 14px;
+		line-height: 20px;
+	  }
+	  .play-fl-text a {
+		width: 67px;
+		height: 67px;
+	  }
+	
+	
+.play-smolle .play-box {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.play-smoll-text p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.play-smolle.saf-hi .play-smoll-text p {
+  margin-bottom: 11px;
+}
+.play-last-box a {
+  height: 60px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+	
+	
+.play-smolle.hi {
+	margin: 0;
+}
+	
+.play-box {
+	height: 250px;
+}
+	
+.brand-text h3 {
+	font-size: 12px;
+  }
+  .brand-text {
+	height: 36px;
+  }
+  .single-brand {
+	border-radius: 15px;
+	width: 46%;
+	margin-bottom: 20px;
+  }
+  .single-brand a {
+	height: 77px;
+	padding: 10px 30px;
+  }
+  .play-text p {
+	font-size: 14px;
+	line-height: 18px;
+  }
+  .play-area {
+	padding: 20px 0;
+  }
+	
+	  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+.header-logo a img {
+	max-width: 160px;
+  }
+  .headere__icon a {
+	font-size: 20px;
+	top: 59px;
+  }
+  .cross__icon.crs-icn-sec {
+	margin-top: 0;
+  }
+  .cross__area {
+	padding-top: 0;
+  }
+  .cross__single__icon.icn-sec {
+	width: 150px;
+	height: 150px;
+  }
+  .cross__single__icon.icn-sec .icon-sp img {
+	width: 70px;
+  }
+  .about__text p {
+	font-size: 20px;
+	margin-top: 20px;
+  }
+  .scean__area.scean--area--sec {
+	padding-top: 32px;
+	padding-left: 0;
+	padding-right: 0;
+  }
+  .scean__text p {
+	font-size: 16px;
+	line-height: 20px;
+	max-width: 100%;
+	text-align: center;
+  }
+  .scean__fx {
+	display: block;
+	margin-bottom: 50px;
+  }
+  .scean__icon {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 20px;
+  }  
+   body {
+	  /*! height: 100%; */
+  }   
+	
+  .scean__video a {
+	width: 60px;
+	height: 60px;
+  }
+  .scean__video p {
+	font-size: 7px;
+  }
+  .about__fx {
+	width: 100%;
+  }  
+	  
+   
+  .headere__icon.run a {
+	top: 49px;
+  }
+  .cross__single__icon {
+	width: 150px;
+	height: 150px;
+	margin: 0 15px;
+  }
+  .icon-sp img {
+	max-width: 60px;
+  }
+  .cross__icon {
+	margin-top: 30px;
+  }
+  .cross__text p {
+	font-size: 14px;
+  }
+  .cross__text.runpay-text {
+	padding-top: 40px;
+	padding-bottom: 30px;
+  }   
+	  
+   
+  .cross__title h3 {
+	font-size: 25px;
+  }
+  .cross__title.title__Sec {
+	margin-bottom: 25px;
+  }
+  .scean__area {
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+  }   
+   
+  .cross__text {
+	padding-top: 40px;
+	padding-bottom: 40px;
+  }   
+	  
+	 .heig {
+	  height: 100vh;
+  } 
+	  
+.cards {
+	padding: 15px 10px;
+  }
+  .card-img {
+	height: 100px;
+	width: 100px;
+  }
+  .card-title h3 {
+	font-size: 13px;
+  }
+  .card-socail a p {
+	font-size: 12px;
+  }
+  .card-socail a {
+	margin-top: 4px;
+  }
+  .poslink {
+	font-size: 8px;
+	right: 12px;
+	bottom: 6px;
+  }
+  .posicon {
+	width: 30px;
+	height: 30px;
+	right: 12px;
+	top: 9px;
+  }
+  .cards::after {
+	bottom: 9px;
+  }
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

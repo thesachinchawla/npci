@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Title Here</title>
+
+
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
+    <link href="assets/css/venobox.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body style="background-image: url(assets/img/site-bg.png);">
+
+
+    <!-- header-area-start -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-fl">
+                        <div class="header-logo">
+                            <a href="index.html"><img src="assets/img/NPCI-Product-logo-24.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="headere__icon">
+                        <a href="#"><i class="fas fa-home-lg-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area-end -->
+
+    <!--cross-area-strat-->
+    <div class="cross__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cross__wrap">
+                        <div class="cross__title title__Sec">
+                            <h3>Cross Border Payments</h3>
+                        </div>
+                        <div class="cross__icon crs-icn-sec">
+                            <div class="cross__single__icon icn-sec">
+                                <a href="#" class="icon-sp" onclick="openPDF()" style="background-image: url(assets/img/bha/s1.png)"><img src="assets/img/bha/b1.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--cross-area-end-->
+
+    <!--sean--area--start-->
+    <div class="scean__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="scean__wrap">
+                        <div class="scean__fx">
+                            <div class="scean__text">
+                                <p>Scan the QR code to easily
+                                    access this video or
+                                    information on your mobile</p>
+                            </div>
+                            <div class="scean__icon"></div>
+                        </div>
+                        <div class="scean__video">
+                            <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-ratio="1x1" data-maxwidth="400px" href="assets/video/All over in 10 seconds.mp4"><img src="assets/img/bha/v.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--sean--area--end-->
+
+    <script>
+        function openPDF() {
+  var pdfWindow = window.open("", "pdfWindow", "width=800,height=600");
+  pdfWindow.document.write("<embed width='100%' height='100%' src='assets/pdf/demo.pdf' type='application/pdf'/>");
+}
+
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/Popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/venobox.js"></script>   
+    <script>
+        new VenoBox({
+       selector: '.my-video-links',
+   });
+</script>
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
